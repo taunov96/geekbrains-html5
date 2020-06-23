@@ -1,0 +1,361 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.padding-site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.main-header {
+    width: 100%;
+    /* min-height: 220px; */
+    background-color: #445162;
+    color: #fff;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.main-header-wrap {
+    width: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.main-header-title {
+    display: block;
+    margin: 0 0 20px 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.main-header-list {
+    margin: 0;
+    padding: 0 0px 50px 25px;
+    list-style-type: none;
+}
+
+.main-header-list li {
+    position: relative;
+    margin: 0 0 5px 0;
+}
+
+.main-header-list li:nth-child(4) {
+    margin: 0;
+}
+
+.main-header-list li:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -1px;
+    left: -26px;
+    background-image: url('../img/main_check.png');
+    background-size: cover;
+}
+
+.main-header-photo {
+    display: block;
+    float: right;
+    width: 300px;
+    height: 150px;
+    background-color: #fff;
+    box-sizing: border-box;
+    color: black;
+}
+
+.about-product{
+    min-height: 300px;
+    clear: both;
+}
+.about-product-wrap{
+    width: 60%;
+    float:left;
+}
+.about-product-title{
+    margin: 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+.about-product-descr{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+.about-product-pic{
+    display: block;
+    float:right;
+    background: #445162;
+}
+
+.plus-product {
+  width: 100%;
+  /* height: 300px; */
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.plus-product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.plus-product-title {
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+}
+
+.plus-product-list {
+    width: 540px;
+    margin: 0;
+    padding: 0 0 0 46px;
+    list-style-type: none;
+    float: left;
+}
+
+.plus-product-list:nth-child(3){
+    float: right;
+}
+
+.plus-product-list-item {
+    margin: 0 0 40px 0;
+    position: relative;
+}
+
+
+.plus-product-list-item:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    left: -46px;
+}
+
+.screenshot{
+    width:100%;
+    min-height: 487px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+.screenshot-main{
+    margin: 34px 0 0 0;
+}
+.screenshot-title{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+
+}
+.screenshot-main-wrp{
+    width: 49%;
+    display: inline-block;
+
+}
+.screenshot-main-pic{
+    width: 200px;
+    min-height: 150px;
+    background-color: #445161;
+    display: block;
+    float: left;
+    margin: 0 15px 30px 0;
+
+}
+.screenshot-main-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: #445161;
+}
+.screenshhot-main-descr{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+    margin: 5px 0 0 0;
+}
+.reviews{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+.reviews-item{
+    width: 49%;
+    min-height: 121px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    position:relative;
+}
+.reviews-title{
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+    width: 100%;
+    display:block;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.reviews-item-pic{
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+}
+.reviews-item-descr{
+    width: 80%;
+    margin: 0;
+    padding: 15px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+}
+.reviews-item-descr:before{
+    content: "";
+    display: block;
+    border: 20px solid transparent;
+    border-right: 15px solid #ebebeb;
+    position: absolute;
+    top: 16px;
+    left: 80px;
+}
+.reviews-item-autor{
+    display:block;
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #989898;
+}
+
+.price{
+    width: 100% ;
+    min-height: 656px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.price-title{
+    display:block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+}
+.price-column{
+    margin-top: 40px;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: #445161;
+    border: 1px solid #445161;
+    padding: 16px 0 20px 0;
+    border-radius: 10px;
+}
+
+
+.price-head{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    min-height: 51px;
+}
+.price-dollars{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    background-color: #ffffff;
+    color: #445162;
+    min-height: 71px;
+}
+.price-list{
+    color: #ffffff;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    list-style-position:inside;
+}
+.price-list-item{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.price-button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    color: #445161;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.price-button:hover{
+    cursor:pointer;
+    background-color: #445161;
+    color:#ffffff;
+    transition: all 0.5s ease-out;
+}
+.price-button:focus{
+    cursor:pointer;
+    background-color: #445161;
+    color:#ffffff;
+    transition: all 0.5s ease-out;
+}
+
+
+
+
+
+
+
+
+
